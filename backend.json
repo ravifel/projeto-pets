@@ -4,55 +4,55 @@
         "codigo": 1,
         "nome": "Mel",
         "idade": 1.2 ,
-        "genero": "F"
+        "genero": "Fêmea"
       },
       {
         "codigo": 2,
         "nome": "Tobias",
         "idade": 1.2 ,
-        "genero": "M"
+        "genero": "Macho"
       },
       {
         "codigo": 3,
         "nome": "Moni",
         "idade": 1.2 ,
-        "genero": "F"
+        "genero": "Fêmea"
       },
       {
         "codigo": 4,
         "nome": "Fiona",
         "idade": 1.2 ,
-        "genero": "F"
+        "genero": "Fêmea"
       },
       {
         "codigo": 5,
         "nome": "Bolt",
         "idade": 1.2 ,
-        "genero": "M"
+        "genero": "Macho"
       },
       {
         "codigo": 6,
         "nome": "Amy",
         "idade": 1.2 ,
-        "genero": "F"
+        "genero": "Fêmea"
       },
       {
         "codigo": 7,
         "nome": "Frodo",
         "idade": 1.2 ,
-        "genero": "M"
+        "genero": "Macho"
       },
       {
         "codigo": 8,
         "nome": "Aladin",
         "idade": 1.2 ,
-        "genero": "M"
+        "genero": "Macho"
       },
       {
         "codigo": 9,
         "nome": "Nina",
         "idade": 1.2 ,
-        "genero": "F"
+        "genero": "Fêmea"
       }
     ],
     "dogs": [
@@ -60,55 +60,55 @@
           "codigo": 1,
           "nome": "Alec",
           "idade": 1.2 ,
-          "genero": "M"
+          "genero": "Macho"
         },
         {
           "codigo": 2,
           "nome": "Lumi",
           "idade": 1.2 ,
-          "genero": "M"
+          "genero": "Macho"
         },
         {
           "codigo": 3,
-          "nome": "Malu",
+          "nome": "Cloe",
           "idade": 1.2 ,
-          "genero": "F"
+          "genero": "Fêmea"
         },
         {
           "codigo": 4,
           "nome": "Magali",
           "idade": 1.2 ,
-          "genero": "F"
+          "genero": "Fêmea"
         },
         {
           "codigo": 5,
-          "nome": "Cloe",
+          "nome": "Malu",
           "idade": 1.2 ,
-          "genero": "F"
+          "genero": "Fêmea"
         },
         {
           "codigo": 6,
           "nome": "Kila",
           "idade": 1.2 ,
-          "genero": "F"
+          "genero": "Fêmea"
         },
         {
           "codigo": 7,
           "nome": "Luna",
           "idade": 1.2 ,
-          "genero": "F"
+          "genero": "Fêmea"
         },
         {
           "codigo": 8,
           "nome": "Nilo",
           "idade": 1.2 ,
-          "genero": "M"
+          "genero": "Macho"
         },
         {
           "codigo": 9,
           "nome": "Hulk",
           "idade": 1.2 ,
-          "genero": "M"
+          "genero": "Macho"
         }
       ]
 }

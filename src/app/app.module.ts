@@ -11,6 +11,12 @@ import { NossosPetsComponent } from './institucional/nossos-pets/nossos-pets.com
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
 import { APP_BASE_HREF } from '@angular/common';
+import { ListaDogsComponent } from './institucional/nossos-pets/dogs/lista-dogs/lista-dogs.component';
+import { DogsService } from './institucional/nossos-pets/dogs/dogs.service';
+import { HttpClientModule } from '@angular/common/http';
+
+
+
 
 @NgModule({
   declarations: [ //COMPONENTES
@@ -20,13 +26,16 @@ import { APP_BASE_HREF } from '@angular/common';
     FooterComponent,
     SobreComponent,
     ContatoComponent,
-    NossosPetsComponent
+    NossosPetsComponent,
+    ListaDogsComponent
   ],
   imports: [ //MODULOS
     BrowserModule,
+    HttpClientModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],
   providers: [ //SERVIÇOS
+    DogsService,
     {provide: APP_BASE_HREF, useValue: '/'}
   ],
   bootstrap: [AppComponent]
