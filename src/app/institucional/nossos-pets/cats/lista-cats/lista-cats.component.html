@@ -1,0 +1,32 @@
+<div class="container main-container">
+
+    <div class="row text-center">
+        
+        <div *ngFor="let cat of cats" class="col-md-4" style="padding-bottom: 30px;">
+            <div class="card h-100">
+                <a class="text-decoration-none" href="">
+                    <div style="align-content:center;">
+                        <img src="" height="164px" width="253px" alt="" class="img-card">
+                    </div>
+                </a>
+
+                    <h4 class="card-title">{{cat.nome}}</h4>
+                    
+                    <div >
+                        
+                        <p>Idade: {{cat.idade}}</p>
+                        <p>{{cat.genero}}</p>
+
+                    </div>
+
+                <div class="card-footer">
+                    <a class="btn btn-primary">
+                        <span class="fa fa-shopping-cart"></span> Agendar Visita
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

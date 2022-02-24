@@ -150,3 +150,25 @@
       text-align: center;
       } 
     /*FOOTER - Fim*/
+
+
+    .fourth {
+      border-color: #0fdcf1;
+      color: #fff;
+      background-image: -webkit-linear-gradient(45deg, #0fdcf1 50%, transparent 50%);
+      background-image: linear-gradient(45deg, #0fdcf1 50%, transparent 50%);
+      background-position: 100%;
+      background-size: 400%;
+      -webkit-transition: background 300ms ease-in-out;
+      transition: background 300ms ease-in-out;
+    }
+    .fourth:hover {
+      background-position: 0;
+    }
+
+
+.nossos-pets-fundo {
+  margin-top: 144px;
+  margin-left: 359px;
+}
+

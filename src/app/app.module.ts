@@ -14,6 +14,8 @@ import { APP_BASE_HREF } from '@angular/common';
 import { ListaDogsComponent } from './institucional/nossos-pets/dogs/lista-dogs/lista-dogs.component';
 import { DogsService } from './institucional/nossos-pets/dogs/dogs.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ListaCatsComponent } from './institucional/nossos-pets/cats/lista-cats/lista-cats.component';
+import { CatsService } from './institucional/nossos-pets/cats/cats.service';
 
 
 
@@ -27,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     SobreComponent,
     ContatoComponent,
     NossosPetsComponent,
-    ListaDogsComponent
+    ListaDogsComponent,
+    ListaCatsComponent
   ],
   imports: [ //MODULOS
     BrowserModule,
@@ -36,6 +39,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   providers: [ //SERVIÇOS
     DogsService,
+    CatsService,
     {provide: APP_BASE_HREF, useValue: '/'}
   ],
   bootstrap: [AppComponent]

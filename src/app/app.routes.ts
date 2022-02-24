@@ -1,5 +1,6 @@
 import { Routes } from "@angular/router";
 import { ContatoComponent } from "./institucional/contato/contato.component";
+import { ListaCatsComponent } from "./institucional/nossos-pets/cats/lista-cats/lista-cats.component";
 
 import { ListaDogsComponent } from "./institucional/nossos-pets/dogs/lista-dogs/lista-dogs.component";
 
@@ -13,5 +14,6 @@ export const rootRouterConfig: Routes  =[
     {path: 'sobre', component: SobreComponent},
     {path: 'contato', component: ContatoComponent},
     {path: 'nossos-pets', component: NossosPetsComponent},
-    {path: 'lista-dogs', component: ListaDogsComponent}
+    {path: 'lista-dogs', component: ListaDogsComponent},
+    {path: 'lista-cats', component: ListaCatsComponent}
 ];
