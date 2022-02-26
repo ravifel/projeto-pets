@@ -184,6 +184,17 @@
       outline: 0;
     }
 
+    .third {
+      border-color: #3498db;
+      color: #fff;
+      box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+      -webkit-transition: all 150ms ease-in-out;
+      transition: all 150ms ease-in-out;
+    }
+    .third:hover {
+      box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    }
+
     .fourth {
       border-color: #0fdcf1;
       color: #0fdcf1;
@@ -193,10 +204,12 @@
       background-size: 400%;
       -webkit-transition: background 300ms ease-in-out;
       transition: background 300ms ease-in-out;
+      background-color: #0fdcf124;
     }
     .fourth:hover {
       background-position: 0;
     }
+
 
 
 .nossos-pets-fundo {
