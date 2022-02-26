@@ -3,4 +3,6 @@ export class Dog {
     nome: string;
     idade: string;
     genero: string;
+    img: string;
+    id: number;
 }

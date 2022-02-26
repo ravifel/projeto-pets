@@ -3,4 +3,6 @@ export class Cat {
     nome: string;
     idade: string;
     genero: string;
+    img: string;
+    id: number;
 }
