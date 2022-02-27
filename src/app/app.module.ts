@@ -17,7 +17,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { ListaCatsComponent } from './institucional/nossos-pets/cats/lista-cats/lista-cats.component';
 import { CatsService } from './institucional/nossos-pets/cats/cats.service';
 
-
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
+import {MatDialogModule} from '@angular/material/dialog';
+import { LiveFormDialogComponent } from './institucional/nossos-pets/live-form-dialog/live-form-dialog.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -30,11 +34,16 @@ import { CatsService } from './institucional/nossos-pets/cats/cats.service';
     ContatoComponent,
     NossosPetsComponent,
     ListaDogsComponent,
-    ListaCatsComponent
+    ListaCatsComponent,
+    LiveFormDialogComponent
   ],
   imports: [ //MODULOS
     BrowserModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatDialogModule,
+    MatCardModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],
   providers: [ //SERVIÇOS
