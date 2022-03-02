@@ -278,3 +278,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
   max-height: inherit;
   text-align: center;
 }
+
+
+.contato-posicao {
+  margin-top: 15px;
+  padding: 30px;
+  background-color: #08090a6b;
+  color: white;
+}
+
