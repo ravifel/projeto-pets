@@ -5,7 +5,7 @@
         <div *ngFor="let dog of dogs" class="col-md-4" style="padding-bottom: 30px;">
 
 
-          <mat-card class="example-card">
+          <mat-card class="example-card estilo-card-dog">
             <mat-card-header>
               <!-- <div mat-card-avatar class="example-header-image"></div> -->
               <mat-card-title>{{dog.nome}}</mat-card-title>
@@ -19,7 +19,7 @@
             </mat-card-content>
             <mat-card-actions>
               <!-- <button mat-raised-button (click)="abrirDialog()">Contato</button> -->
-              <button mat-raised-button color="primary" (click)="abrirDialog()">Contato</button>
+              <button class="btn btn-outline-success" (click)="abrirDialog()">Contato</button>
             </mat-card-actions>
           </mat-card>
 

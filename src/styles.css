@@ -140,6 +140,11 @@
   border-radius: 102px 102px 0 0;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 87px;
+}
 
 
   
@@ -225,6 +230,13 @@
 }
 
 
+.estilo-card-cat {
+  background-color: #c0d5e6c4;
+}
+
+.estilo-card-dog {
+  background-color: #9cc37f4f;
+}
 
 
 
